@@ -25,4 +25,6 @@ Converter Kelvin
 ## Docker
 1. To run the application, you need to download the project to yourself.
 2. Run command: docker build -t temperature-converter  .
-3. Then execute the command: docker run -it temperature-converter      
+3. Then execute the command: docker run -it temperature-converter    
+
+##  Version 1.0.0
