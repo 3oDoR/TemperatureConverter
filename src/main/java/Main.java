@@ -96,4 +96,29 @@ public class Main {
         }
     }
 
+    public static void main(String[] args) {
+
+        Main main = new Main();
+
+        System.out.println("========================");
+        System.out.println("Original unit of measurement then a space and desired unit of measurement.");
+        System.out.println("To exit, enter \"-exit\"");
+        System.out.println("Example: c f or F K");
+        System.out.println("C - Degree Celsius, F - Degree Fahrenheit, K - Degree Kelvin.");
+
+        boolean flag = true;
+        Scanner in = new Scanner(System.in);
+        String str;
+
+        while (flag) {
+            System.out.println("========================");
+            System.out.println("Enter units(C,F,K):");
+            str = in.nextLine();
+            main.choiceConverter(str, in);
+            if (str.equalsIgnoreCase("-exit")) {
+                flag = false;
+            }
+        }
+    }
+
 }
