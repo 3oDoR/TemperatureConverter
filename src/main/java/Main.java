@@ -79,4 +79,21 @@ public class Main {
             }
         }
     }
+
+    public void choiceConverter(String str, Scanner in) {
+        if (str.equalsIgnoreCase("c f")) {
+            convertCtoF(str, in);
+        } else if (str.equalsIgnoreCase("c k")) {
+            convertCtoK(str, in);
+        } else if (str.equalsIgnoreCase("f c")) {
+            convertFtoC(str, in);
+        } else if (str.equalsIgnoreCase("f k")) {
+            convertFtoK(str, in);
+        } else if (str.equalsIgnoreCase("k c")) {
+            convertKtoC(str, in);
+        } else if (str.equalsIgnoreCase("k f")) {
+            convertKtoF(str, in);
+        }
+    }
+
 }
