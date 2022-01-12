@@ -27,4 +27,30 @@ public class Main {
             }
         }
     }
+
+    public void convertKtoC(String str, Scanner in) {
+        if (str.equalsIgnoreCase("k c")) {
+            System.out.println("Enter temperature(K)");
+            str = in.nextLine();
+            try {
+                double sum = (Double.parseDouble(str) - 273.15D);
+                System.out.println(str + "K = " + sum + "C");
+            } catch (Exception e) {
+                System.out.println("Number input error. Next time, please try to enter a number. Example: 23 or 23.55");
+            }
+        }
+    }
+
+    public void convertKtoF(String str, Scanner in) {
+        if (str.equalsIgnoreCase("k f")) {
+            System.out.println("Enter temperature(K)");
+            str = in.nextLine();
+            try {
+                double sum = ((Double.parseDouble(str) - 273.15D) * 9 / 5 + 32);
+                System.out.println(str + "K = " + sum + "F");
+            } catch (Exception e) {
+                System.out.println("Number input error. Next time, please try to enter a number. Example: 23 or 23.55");
+            }
+        }
+    }
 }
