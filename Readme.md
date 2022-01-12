@@ -14,13 +14,13 @@ Console application allows you to convert temperatures between Celsius, Fahrenhe
 `-exit` - Exiting the application.
 ## Example of work
 Output when starting the program   
-![](https://raw.githubusercontent.com/3oDoR/TemperatureConverter/develop/img/startProgram.png)   
+![](https://github.com/3oDoR/TemperatureConverter/blob/feature/readme/img/startProgram.png)   
 Converter Celsius    
-![](https://raw.githubusercontent.com/3oDoR/TemperatureConverter/develop/img/c.png)      
+![](https://github.com/3oDoR/TemperatureConverter/blob/feature/readme/img/c.png)      
 Converter Fahrenheit   
-![](https://raw.githubusercontent.com/3oDoR/TemperatureConverter/develop/img/f.png)    
+![](https://github.com/3oDoR/TemperatureConverter/blob/feature/readme/img/f.png)    
 Converter Kelvin      
-![](https://raw.githubusercontent.com/3oDoR/TemperatureConverter/develop/img/k.png)
+![](https://github.com/3oDoR/TemperatureConverter/blob/feature/readme/img/k.png)
 
 ## Docker
 1. To run the application, you need to download the project to yourself.
