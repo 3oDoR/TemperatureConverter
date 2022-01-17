@@ -3,7 +3,6 @@
 # Temperature Converter
 
 
-
 Console application allows you to convert temperatures between Celsius, Fahrenheit and Kelvin.
 
 ## Commands
