@@ -1,3 +1,5 @@
+![](https://github.com/3oDoR/TemperatureConverter/actions/workflows/main.yml/badge.svg?branch=develop)   
+
 # Temperature Converter
 
 
